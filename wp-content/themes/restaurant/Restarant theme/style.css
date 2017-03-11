@@ -1,0 +1,181 @@
+/*
+Theme Name: Sibars Theme 2
+Theme URI: www.google.com
+Author: Sibar Al-ani
+Author URI: www.google.com
+Description: Yet another Wordpress theme
+Version: 1.0
+Tags: Wordpress themedevelopment
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+#site-sidebar {
+	/*border: 1px dotted black;*/
+}
+
+#site-footer {
+	/*background-color: #555;*/
+	color: white;
+}
+
+
+#site-sidebar ul li{
+    list-style: none;
+}
+#site-sidebar ul li a:hover{
+    background-color: #ffb133 ;
+    color: #ffffff;
+    border:solid #ffb133 10px;
+}
+#site-sidebar ul li a{
+    color:grey;
+}
+#site-sidebar ul{
+    list-style: none;
+    color:grey;
+    font-family: "Comic Sans MS";
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.cat_content{
+    background-color: #72973c ;
+    color:#ffffff;
+    padding: 60px;
+    text-align: center;
+    font-family: serif;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    margin: 30px 0px 30px 0px;
+
+}
+#cat_title{
+    border-top:1px solid white;
+    padding-top: 60px;
+    font-family: sans-serif;
+    font-size: 3em;
+    margin-bottom: 70px;
+}
+
+.widget-title{
+    color:grey;
+    font-family: "Comic Sans MS";
+    font-size: 2em;
+}
+.widget-title:hover{
+    background-color: #ffb133 ;
+    color: #ffffff;
+
+}
+
+.about_img{
+    border:none;
+    border-radius: 20px;
+    -webkit-filter: brightness(80%);
+}
+
+#post_design{
+margin-top:30px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    font-family: serif;
+    line-height: 1.5em;
+    border-radius: 20px;
+    border:solid gray 1px;
+    padding: 20px;
+}
+
+
+#welcome{
+    background-color: #72973c ;
+    color:#ffffff;
+    padding: 60px;
+    text-align: center;
+    font-family: serif;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    margin: 30px 0px 30px 0px;
+
+}
+#title{
+    border-top:1px solid white;
+padding-top: 60px;
+    font-family: sans-serif;
+    font-size: 3em;
+    margin-bottom: 70px;
+}
+#text{
+    border-bottom:1px solid white;
+    padding-bottom: 60px;
+}
+
+
+.cat_img{
+    /*margin-top: 30px;*/
+    border:solid #ffb133 1px;
+    padding:15px;
+    height: 200px;
+    width: 300px;
+    margin: 30px 10px 30px 10px;
+}
+
+#cat_text{
+    background-color: #ffb133 ;
+    color: white;
+    padding: 10px;
+
+}
+div #navmenu:hover::before {
+    width: 100%;
+}
+
+
+
+#navmenu ul {
+    /*margin: 0;*/
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+    margin: 15px;}
+
+#navmenu li {
+    display: inline;
+}
+#navmenu ul li a {
+    text-decoration:none;
+    margin: 4px;
+
+    padding: 5px 20px 5px 20px;
+    color: #72973c;
+    font-size: 1.2em;
+    /*background: pink;*/
+    font-family: "Comic Sans MS";
+
+}
+
+#navmenu ul li a:hover {
+    color: white;
+    background: #72973c;
+}
+#footer-menu ul li{
+    list-style: none;
+    display: inline;
+    margin: 30px;
+
+    font-family: "Comic Sans MS";
+    font-size: 1.2em;
+}
+
+#footer-menu ul li a{
+    color:grey;
+}
+#footer-menu{
+    margin: 50px;
+}
